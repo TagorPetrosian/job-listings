@@ -1,0 +1,119 @@
+.side {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  width: 22%;
+  background-color: #f2f2f2;
+}
+
+.side__section {
+  margin: 3px;
+  height: 125px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid #e3e5ee;
+}
+
+.side__section--recruiter {
+  position: relative;
+}
+
+.side__section--listings-share {
+  margin: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border: 1px solid #e3e5ee;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.icon-warpper {
+  width: 60px;
+  height: 100%;
+}
+
+.counsel {
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.counsel-warpper {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+
+.user-icon {
+  font-size: 22px;
+  display: inline-block;
+}
+
+.counsel-name {
+  font-weight: bold;
+  display: block;
+}
+
+.contact-counsel {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.description {
+  display: block;
+}
+
+.job-listings {
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.help-friends {
+  font-size: 14px;
+  color: #aca09e;
+  text-align: center;
+}
+
+.badge-listings {
+  background-color: #0099ff;
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+}
+
+.p-l-15 {
+  padding-left: 15px;
+}
+
+.p-l-4 {
+  padding-left: 4px;
+}
+
+.m-l-15 {
+  margin-left: 15px;
+}
+
+.p-5 {
+  padding: 0 5px;
+}

@@ -1,0 +1,65 @@
+.composition {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.composition__section {
+  display: inline-block;
+  border: 1px solid #e3e5ee;
+  border-radius: 3px;
+  position: relative;
+  width: 31%;
+  height: 120px;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+.composition__section--time {
+  color: #bbbfd1;
+  position: absolute;
+  font-size: 26px;
+  top: 30px;
+  font-weight: 600;
+}
+
+.composition__section--description {
+  color: #bbbfd1;
+  position: absolute;
+  font-size: 26px;
+  top: 60px;
+  font-weight: 600;
+}
+
+.composition__section--details {
+  color: #bbbfd1;
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+}
+
+.composition__section--ip {
+  color: #bbbfd1;
+  position: absolute;
+  font-size: 26px;
+  top: 30px;
+  font-weight: 600;
+}
+
+.composition__section--language {
+  color: #bbbfd1;
+  position: absolute;
+  font-size: 26px;
+  top: 30px;
+  font-weight: 600;
+}
+
+.composition__section--icon {
+  color: #bab8b8;
+  position: absolute;
+  font-size: 40px;
+  top: 20px;
+  right: 20px;
+  font-weight: 600;
+}

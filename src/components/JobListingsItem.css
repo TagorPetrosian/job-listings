@@ -1,0 +1,33 @@
+.job-listing {
+  background-color: #f2f2f2;
+  margin-top: 2px;
+}
+
+.job-listings-title {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.job-description {
+  padding: 0 10px;
+}
+
+.rating {
+  float: left;
+  padding: 10px;
+}
+
+.share {
+  float: right;
+  padding: 10px;
+}
+
+.hoverable:hover {
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}

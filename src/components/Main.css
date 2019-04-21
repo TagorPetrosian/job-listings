@@ -1,0 +1,9 @@
+.content {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  display: inline-block;
+  width: 70%;
+  background-color: #ffffff;
+  padding: 10px;
+}
